@@ -79,6 +79,7 @@ int main(){
 	fp=fopen("bankdata","a");
 	fclose(fp);
 	acc m,n,o;
+	printf("------------------------------Welcome To Bank------------------------------\n");
 repeat:
 	printf("1. Check Account Details\n");
 	printf("2. Add a New Account\n");
@@ -293,4 +294,5 @@ forward:
 	scanf(" %c",&ch);
 	if(ch=='y'||ch=='Y')
 		goto repeat;
-	}
+	printf("--------------------By Shayaan Hussain--------------------\n");
+}
