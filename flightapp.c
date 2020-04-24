@@ -807,5 +807,5 @@ restart:
 	if(ch=='y'||ch=='Y')
 		goto restart;
 endprogram:
-	printf("--------------------By Shayaan Hussain(19K41A04E6)-------------------\n");
+	printf("--------------------By Shayaan Hussain-------------------\n");
 }
