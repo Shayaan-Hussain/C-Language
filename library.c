@@ -264,6 +264,7 @@ int main()
 	book b;
 	fp=fopen("library","a");
 	fclose(fp);
+	printf("--------------------Welcome to Library--------------------\n")
 repeat:
 	printf("1. Add Book Information\n");
 	printf("2. Display Book Information\n");
@@ -302,8 +303,7 @@ repeat:
 			returnbook();
 			break;
 		case 7:
-			return 0;
-			break;
+			goto end;
 		default:
 			printf("Invalid Choice\n");
 	}
@@ -311,4 +311,6 @@ repeat:
 	scanf(" %c",&ch);
 	if(ch=='y'||ch=='Y')
 		goto repeat;
+end:
+	printf("--------------------By Shayaan Hussain-------------------\n");
 }
