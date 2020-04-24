@@ -284,8 +284,7 @@ opp:
 				printf("\tAccount not found\n");
 			break;
 		case 5:
-			return 0;
-			break;
+			goto endprog;
 		default:
 			printf("\tInvalid Choice\n");
 	}
@@ -294,5 +293,6 @@ forward:
 	scanf(" %c",&ch);
 	if(ch=='y'||ch=='Y')
 		goto repeat;
+endprog:
 	printf("--------------------By Shayaan Hussain--------------------\n");
 }
