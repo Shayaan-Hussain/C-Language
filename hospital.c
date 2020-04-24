@@ -224,6 +224,5 @@ close:
 	if(ch=='y'||ch=='Y')
 		goto repeat;
 	else
-		printf("---------------------Thank you for Visiting---------------------\n");
-	printf("\t\t\t\t~By Shayaan Hussain(19K41A04E6)\n");
+		printf("---------------------By Shayaan Hussain---------------------\n");
 }
